@@ -1,6 +1,7 @@
 # USER-REGISTRY
 
 Registration App is an app that let you save users to the database following some rules.
+![image](https://user-images.githubusercontent.com/33939388/197276243-aa416cac-1ddc-4cea-bc4e-b3379ac02d09.png)
 
 ## Demo
 These are some responses the API generate when we create the request:
