@@ -4,7 +4,7 @@ Registration App is an app that let you save users to the database following som
 ![image](https://user-images.githubusercontent.com/33939388/197276243-aa416cac-1ddc-4cea-bc4e-b3379ac02d09.png)
 
 ## Demo
-These are some responses the API generate when we create the request:
+These are some responses the API generates when we create the request:
 
 ![image](https://user-images.githubusercontent.com/33939388/197271190-34e6375f-17cf-4fb3-833e-3ec016f46b8a.png)
 
