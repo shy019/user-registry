@@ -16,6 +16,22 @@ Once the application is running we'll be able to see the follow documents:
 ![image](https://user-images.githubusercontent.com/33939388/197271466-f20083c1-88fd-4c48-9fb5-9a67e312a3df.png)
 ## Features
 
+> H2DB (http://localhost:63342/transfer-of-funds-api/target/site/jacoco/index.html)
+- Login:
+![image](https://user-images.githubusercontent.com/33939388/197272957-f7b33156-0a6e-4a9f-9c10-194bcf39e063.png)
+
+where user name is "admin" and the password is "root".
+
+![image](https://user-images.githubusercontent.com/33939388/197273051-3c46a360-4034-402c-8aa3-a1cda847a635.png)
+
+For test purposes, there is an user created in the db with the next sentences:
+```sql
+INSERT INTO user VALUES ('246f4b87-4db2-4501-b270-484a73629550', '2022-10-21', 'pgcarlos@dominio.cl', TRUE, '2022-10-21', NULL, 'Carlos Perez', 'password','eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKdWFuIFJvZHJpZ3VleiIsImlhdCI6MTY2NjM1ODYyNiwiZXhwIjoxNjY3MjIyNjI2fQ.A_gJTVFNGtsXPmcxeKoa6K3sB3boCVByCEG_fB7NN1Wiwmw3NxMsaiDdIMymtmjyYBIlh0sGsXP1A_s8t9dkvg');
+INSERT INTO phone VALUES('3204168231', '26', '57');
+INSERT INTO user_phones VALUES('246f4b87-4db2-4501-b270-484a73629550', '3204168231');
+```
+
+## Features
 - Cypher password.
 - User_id generated using UUID.
 - Generate tokens.
